@@ -1,151 +1,169 @@
-
-
 h1 {
-    margin: 50px auto 0 auto;
-    font-family: 'Sacramento', cursive;
-    font-size: 5.625rem;
-    color:  #66BFBF;
-    
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
 }
-body{
-    margin: 0;
-    text-align: center;
-    font-family: 'Merriweather', serif;
-    color: #40514E;
-    
-    
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514e;
 }
-h2{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
-    margin-top: 0;
-    color:  #66BFBF;
-    font-weight: normal;
-    padding-bottom: 10px;
-    
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  margin-top: 0;
+  color: #66bfbf;
+  font-weight: normal;
+  padding-bottom: 10px;
 }
-h3{
-    font-family: 'Montserrat', sans-serif;
-    color:  #11999E;
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
 }
-p{
-    line-height: 2;
+p {
+  line-height: 2;
 }
 hr {
-    border: dotted rgba(119, 118, 119, 0.4) 6px;
-    border-bottom: none;
-    width: 4%;
-    margin: 100px auto;
+  border: dotted rgba(119, 118, 119, 0.4) 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
 }
 a {
-    margin: 30px 30px 30px 10px;
-    font-family: 'Montserrat', sans-serif;  
-    text-decoration: none;
+  margin: 30px 30px 30px 10px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  text-align: center;
 }
-a:hover{
-    color: #eaf6f6;
+a:hover {
+  color: #eaf6f6;
 }
-.top-container{
-    padding-top: 100px;
-    background-color: #cbf1f5;
-    position: relative;
-    
+.top-container {
+  padding-top: 100px;
+  background-color: #cbf1f5;
+  position: relative;
 }
 .middle-container {
-   margin: 100px 0;
-    
+  margin: 100px 0;
 }
 .bottom-container {
-  background-color: #66BFBF;
-  padding:45px 0 10px 0;   
+  background-color: #66bfbf;
+  padding: 45px 0 10px 0;
+  text-decoration: none;
+  padding-bottom: 0px;
 }
-.bottomcloud{
-    position: absolute;
-    left: 300px;
-    bottom: 300px;
-    
+.footer-link:hover {
+  text-decoration: none;
 }
-.topcloud{
-    position: absolute;
-    right: 300px;
-    top: 50px;
+.bottomcloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
 }
-.profilepic{
-    height: 200px;
-    width: 200px;
+.topcloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
 }
-.skill1{
-    
-    width: 25%;
-    float: left;
-    margin-right: 30px;
+.profilepic {
+  height: 200px;
+  width: 200px;
 }
-.skill2
-{
-    float: right;
-    margin-left:30px ;
-    width: 25%;
+.skill1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
-.footer-link{
-    color:  #11999E;
+.skill2 {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
 }
-.skill-row{
+.footer-link {
+  color: #11999e;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.hello-p {
+  width: 30%;
+  margin: auto;
+}
+@media (max-width: 990px) {
+  .hello-p {
     width: 50%;
-    margin: 100px auto 100px auto;
-    text-align: left;
-    
-}
-.hello-p{
-    width: 30%;
-    margin: auto;
+  }
 }
 
-.c3{
-    color: #EAF6F6;
-    font-size: 0.8rem; 
-    margin-bottom: 0px; 
+.c3 {
+  color: #eaf6f6;
+  font-size: 0.7rem;
+  margin-bottom: 0px;
+  padding-top: 10px;
 }
-.contact-message{
-    width: 40%;
-    margin: 40px auto 40px auto;
+.contact-message {
+  width: 40%;
+  margin: 40px auto 40px auto;
 }
 
 .BUTTON_LSA {
-    background: #11CDD4;
-    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
-    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
-    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
-    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
-    background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
-    height: 8px;
-    line-height: 8px;
-    color: #FFFFFF;
-    font-family: Arial;
-    width: 139px;
-    font-size: 20px;
-    font-weight: 100;
-    padding: 10px 20px;
-    border: solid #337FED 1px;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    text-align: center;
-    margin-bottom: 0;
- }
- 
- .BUTTON_LSA:hover {
-    border: solid #337FED 1px;
-    background: #30E3CB;
-    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
-    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
-    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
-    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
-    background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
-    text-decoration: none;
- }
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -webkit-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  height: 8px;
+  line-height: 8px;
+  color: #ffffff;
+  font-family: Arial;
+  width: 175px;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 20px 20px;
+  border: solid #337fed 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  padding-bottom: 22px;
+}
+
+.BUTTON_LSA:hover {
+  border: solid #337fed 1px;
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -webkit-gradient(to bottom, #30e3cb, #2bc4ad);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+@media (max-width: 540px) {
+  .hello-p {
+    width: 90%;
+  }
+  .skill-row {
+    width: 90%;
+  }
+  .contact-message {
+    width: 90%;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+  .text2 {
+    font-size: 2rem;
+  }
+}
