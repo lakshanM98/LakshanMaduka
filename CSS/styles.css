@@ -64,7 +64,7 @@ a:hover {
 }
 .bottomcloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
 .topcloud {
@@ -181,6 +181,13 @@ a:hover {
     width: 90%;
   }
   .bottomcloud {
-    bottom: 200px;
+    width: 20%;
+    bottom: 40%;
+
+    left: 80%;
+  }
+  .topcloud {
+    width: 20%;
+    left: 0;
   }
 }
