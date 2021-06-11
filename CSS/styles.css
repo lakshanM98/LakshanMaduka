@@ -150,7 +150,7 @@ a:hover {
   text-decoration: none;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 618px) {
   .hello-p {
     width: 90%;
   }
@@ -165,5 +165,11 @@ a:hover {
   }
   .text2 {
     font-size: 2rem;
+  }
+  .mountain {
+    width: 90%;
+  }
+  .bottomcloud {
+    bottom: 200px;
   }
 }
